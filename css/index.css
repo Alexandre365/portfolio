@@ -128,10 +128,10 @@ h2{
 /* Projetos*/
 .projetos{
     
-    margin: 10px 20% 10px 20% ;
+    margin: 10px 15% 10px 15% ;
 }
 .tituloProjetos h2{
-    margin: 0px 0px 10px 100px;
+    margin: 0px 0px 10px 200px;
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 35px;
     color: #FFAF29;
@@ -150,4 +150,25 @@ h2{
     padding: 0px 10px 10px 10px ;
     font-size: 20px;
     color: white;
+}
+
+/* buttons*/
+.btnCarousel{
+    text-align: center;
+    position: relative;
+    top: -442px;
+    margin-left:840px ;
+}
+.btnRight{
+    font-size: 20px;
+    padding: 10px 15px 10px 15px;
+    color: white;
+    background-color:#2F3553 ;
+}
+.btnLeft {
+    font-size: 20px;
+    padding: 10px 15px 10px 15px;
+    color: white;
+    background-color:#2F3553 ;
+
 }

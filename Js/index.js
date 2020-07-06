@@ -1,6 +1,8 @@
 var btnSobre = document.getElementById('btnSobre')
 var btnContato = document.getElementById('btnContato')
 var btnHabilidade = document.getElementById('btnHabilidade')
+var btnRight = document.getElementById('btnRight')
+var btnLeft = document.getElementById('btnLeft')
 
 var contContato = document.getElementById('contContato')
 var contSobre = document.getElementById('contSobre')
@@ -11,6 +13,13 @@ btnContato.addEventListener('click', clicarContato)
 btnHabilidade.addEventListener('click', clicarHabelidade)
 
 
+btnRight.addEventListener('mouseover',mouseBtnRight)
+btnRight.addEventListener('mouseout',mouseBtnRightn)
+btnLeft.addEventListener('mouseover',mouseBtnLeft)
+btnLeft.addEventListener('mouseout',mouseBtnLeftn)
+
+
+/* conteudo meu */
 function clicarSobre(params) {
     contContato.style.display = 'none'
     contSobre.style.display = 'inline-block'
@@ -56,9 +65,22 @@ function clicarHabelidade() {
     btnHabilidade.style.background = '#FFAF29'
     btnHabilidade.style.padding = '20px 110px 20px 110px'
 
+}
+/* botões do carousel*/
 
-    
+/*direito*/
 
-
+function mouseBtnRight() {
+    btnRight.style.background = '#FFAF29'
+}
+function mouseBtnRightn() {
+    btnRight.style.background = '#2F3553'
 }
 
+/*esquerdo */
+function mouseBtnLeft() {
+    btnLeft.style.background = '#FFAF29'
+}
+function mouseBtnLeftn() {
+    btnLeft.style.background = '#2F3553'
+}
