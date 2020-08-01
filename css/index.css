@@ -126,12 +126,17 @@ h2{
 }
 
 /* Projetos*/
+.projeto{
+    background-color:#252a44;
+}
 .projetos{
     
-    margin: 10px 15% 10px 15% ;
+    margin: 30px 15% 10px 15% ;
 }
 .tituloProjetos h2{
-    margin: 0px 0px 10px 200px;
+    position: relative;
+    top: 15px;
+    margin: 0px 0px 0px 200px;
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 35px;
     color: #FFAF29;
@@ -156,7 +161,7 @@ h2{
 .btnCarousel{
     text-align: center;
     position: relative;
-    top: -442px;
+    top: -460px;
     margin-left:840px ;
 }
 .btnRight{
@@ -170,5 +175,56 @@ h2{
     padding: 10px 15px 10px 15px;
     color: white;
     background-color:#2F3553 ;
+}
 
+/* certificado*/
+.Certificado{
+margin: 0px 15% 10px 15% ;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-row-gap: 20px;
+    grid-column-gap: 0px;
+    padding: 20px;
+    text-align: center;
+}
+.grid-item {
+    background-color: #2C304A;
+    border-radius:5px;
+    margin: 0px 5% 0px 5% ;
+    padding: 20px 0px 20px 0px;
+  }
+.grid-item h2{
+    padding: 15px 0px 0px 0px;
+    color: #FFAF29;
+}
+.grid-item p{
+    color: white;
+}
+.tituloCertificado h2{
+    position: relative;
+    top: 10px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 35px;
+    color: #FFAF29;
+}
+.imgCertificados{
+    border-radius: 10px;
+    display: none;
+    background-color: #3f456b;
+    color: white;
+    padding: 20px 20px 10px 20px;
+    position: fixed;
+    top: 50px;
+    left: 0px;
+    margin-left: 25%;
+    margin-right: 25%;
+    text-align: center;
+}
+.btnVoltarCertificado{
+    margin: 20px 35% 0px 35%;
+    padding: 5px;
+    background-color: #FFAF29;
+    border-radius: 30px;
 }
