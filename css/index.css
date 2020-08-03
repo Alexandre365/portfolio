@@ -1,5 +1,6 @@
 
 body{
+    text-align: center;
     background-color: #1e2335;
     font-family: 'Source Sans Pro', sans-serif;
 }
@@ -16,7 +17,7 @@ body{
     text-align: right;
     position: relative;
     top: 200px;
-    left: -200px;
+    left: -100px;
 }
 .nome h2{
     font-size: 60px;
@@ -33,7 +34,7 @@ h2{
 .imgPerfil{
     position: relative;
     top: -50px;
-    left: 100px;
+    left: -300px;
     border-radius: 40px  ;
     width: 450px;
     height: 350px;
@@ -47,11 +48,9 @@ h2{
     text-align: center;
     padding: 100px 0px 0px 0px ;
     background-color: #2F3553;
-    margin: 0px 200px 50px 200px;
+    margin: 0px 15% 50px 15%;
 }
-.contBtn{
-    
-}
+
 .btnSobre{
     font-size: 20px;
     position: relative;
@@ -97,27 +96,26 @@ h2{
     color: white;
 }
 .contHabilidade{
+    text-align: center;
     display: none;
     font-size: 22px;
     color: white;
 }
 .HabPrograms{
-    position: absolute;
-    top: -20px;
-    left: 50px;
+   position: absolute ;
+   left: 15%;
 
 }
+.HabIdioma{
+   position: absolute ;
+   top: 10px;
+   left: 40%;
+}
 .tituloPrograms{
-    position: relative;
-    top: -10px;
     font-size: 35px;
     color: #FFAF29;
 }
-.HabIdioma{
-    position: absolute;
-    top: -20px;
-    left: 350px;
-}
+
 .tituloIdioma{
     position: relative;
     top: -10px;
@@ -136,6 +134,7 @@ h2{
 .tituloProjetos h2{
     position: relative;
     top: 15px;
+    left: -500px;
     margin: 0px 0px 0px 200px;
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 35px;
@@ -189,6 +188,15 @@ margin: 0px 15% 10px 15% ;
     padding: 20px;
     text-align: center;
 }
+.grid-container2 {
+    display: none;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-row-gap: 20px;
+    grid-column-gap: 0px;
+    padding: 20px;
+    text-align: center;
+}
 .grid-item {
     background-color: #2C304A;
     border-radius:5px;
@@ -227,4 +235,14 @@ margin: 0px 15% 10px 15% ;
     padding: 5px;
     background-color: #FFAF29;
     border-radius: 30px;
+}
+.btnCarrega{
+    border-radius: 5px;
+    padding: 5px;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: white;
+    background-color: #FFAF29;
+}
+.segundaParteCertificados{
+    display: none;
 }

@@ -3,6 +3,7 @@ var btnContato = document.getElementById('btnContato')
 var btnHabilidade = document.getElementById('btnHabilidade')
 var btnRight = document.getElementById('btnRight')
 var btnLeft = document.getElementById('btnLeft')
+var btnCarrega = document.getElementById('btnCarrega')
 
 var contContato = document.getElementById('contContato')
 var contSobre = document.getElementById('contSobre')
@@ -12,9 +13,10 @@ var certificadoWord = document.getElementById('certificadoWord')
 var certificadoExcel = document.getElementById('certificadoExcel')
 var certificadoHtml = document.getElementById('certificadoHtml')
 var certificadoData = document.getElementById('certificadoData')
+var certificadoSixSigma = document.getElementById('certificadoSixSigma')
 
 var btnVoltarCertificado = document.getElementById('btnVoltarCertificado')
-var txtCertificado = ['img/certificados/certificado do word b+ísico.png','img/certificados/certificado Excel b+ísico.png','img/certificados/certificado Html A+ançado.jpg','img/certificados/Certificado senac Data Cabling System.jpg']
+var txtCertificado = ['img/certificados/certificado do word b+ísico.png','img/certificados/certificado Excel b+ísico.png','img/certificados/certificado Html A+ançado.jpg','img/certificados/Certificado senac Data Cabling System.jpg','img/certificados/thumbnail.png']
 var NumCert 
 
 btnSobre.addEventListener('click', clicarSobre)
@@ -99,7 +101,11 @@ btnVoltarCertificado.onclick = function(){
     var imgCertificados = document.getElementById('imgCertificados')
     imgCertificados.style.display = 'none'
 }
-
+btnCarrega.onclick = function(){
+    var segundaParteCerti = document.getElementById('segundaParteCerti')
+    segundaParteCerti.style.display = 'inline'
+    btnCarrega.style.display = 'none'
+}
 certificadoWord.onclick = function(){
     var imgCertificados = document.getElementById('imgCertificados')
     imgCertificados.style.display = 'inline'
@@ -124,7 +130,12 @@ certificadoData.onclick = function(){
     NumCert = 3
     ImgCertificado()
 }
-
+certificadoSixSigma.onclick = function(){
+    var imgCertificados = document.getElementById('imgCertificados')
+    imgCertificados.style.display = 'inline'
+    NumCert = 4
+    ImgCertificado()
+}
 function ImgCertificado(){
     var ImgGCertificado = document.getElementById('ImgGCertificado')
     ImgGCertificado.setAttribute('src',`${txtCertificado[NumCert]}`)
