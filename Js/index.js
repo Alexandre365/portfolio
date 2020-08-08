@@ -9,15 +9,6 @@ var contContato = document.getElementById('contContato')
 var contSobre = document.getElementById('contSobre')
 var contHabilidade = document.getElementById('contHabilidade')
 
-var certificadoWord = document.getElementById('certificadoWord')
-var certificadoExcel = document.getElementById('certificadoExcel')
-var certificadoHtml = document.getElementById('certificadoHtml')
-var certificadoData = document.getElementById('certificadoData')
-var certificadoSixSigma = document.getElementById('certificadoSixSigma')
-
-var btnVoltarCertificado = document.getElementById('btnVoltarCertificado')
-var txtCertificado = ['img/certificados/certificado do word b+ísico.png','img/certificados/certificado Excel b+ísico.png','img/certificados/certificado Html A+ançado.jpg','img/certificados/Certificado senac Data Cabling System.jpg','img/certificados/thumbnail.png']
-var NumCert 
 
 btnSobre.addEventListener('click', clicarSobre)
 btnContato.addEventListener('click', clicarContato)
@@ -96,47 +87,3 @@ function mouseBtnLeftn() {
     btnLeft.style.background = '#2F3553'
 }
 
-// certificados 
-btnVoltarCertificado.onclick = function(){
-    var imgCertificados = document.getElementById('imgCertificados')
-    imgCertificados.style.display = 'none'
-}
-btnCarrega.onclick = function(){
-    var segundaParteCerti = document.getElementById('segundaParteCerti')
-    segundaParteCerti.style.display = 'inline'
-    btnCarrega.style.display = 'none'
-}
-certificadoWord.onclick = function(){
-    var imgCertificados = document.getElementById('imgCertificados')
-    imgCertificados.style.display = 'inline'
-    NumCert = 0
-    ImgCertificado()
-}
-certificadoExcel.onclick = function(){
-    var imgCertificados = document.getElementById('imgCertificados')
-    imgCertificados.style.display = 'inline'
-    NumCert = 1
-    ImgCertificado()
-}
-certificadoHtml.onclick = function(){
-    var imgCertificados = document.getElementById('imgCertificados')
-    imgCertificados.style.display = 'inline'
-    NumCert = 2
-    ImgCertificado()
-}
-certificadoData.onclick = function(){
-    var imgCertificados = document.getElementById('imgCertificados')
-    imgCertificados.style.display = 'inline'
-    NumCert = 3
-    ImgCertificado()
-}
-certificadoSixSigma.onclick = function(){
-    var imgCertificados = document.getElementById('imgCertificados')
-    imgCertificados.style.display = 'inline'
-    NumCert = 4
-    ImgCertificado()
-}
-function ImgCertificado(){
-    var ImgGCertificado = document.getElementById('ImgGCertificado')
-    ImgGCertificado.setAttribute('src',`${txtCertificado[NumCert]}`)
-}
