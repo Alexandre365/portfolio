@@ -12,12 +12,15 @@ body{
     background-color: #272B41;
 
 }
+.cabe {
+    margin-left: 30%;
+    margin-right: 30%;
+}
 .nome{
     color: white;
-    text-align: right;
     position: relative;
     top: 200px;
-    right: 20%;
+    left: 200px;
 }
 .nome h2{
     font-size: 60px;
@@ -27,6 +30,7 @@ body{
     font-size: 30px;
     position: relative;
     top: -20px;
+    left: 50px;
 }
 h2{
     font-family: 'Cabin', sans-serif;
@@ -36,7 +40,7 @@ h2{
     padding: 20px;
     position: relative;
     top: -50px;
-    left: -300px;
+    right: 300px;
     border-radius: 250px  ;
     width: 350px;
     height: 350px;
@@ -49,8 +53,11 @@ h2{
     top: -50px;
     text-align: center;
     padding: 100px 0px 0px 0px ;
+    width: 950px;
+    height: 450px;
     background-color: #2F3553;
     margin: 0px 15% 0px 15%;
+    transition: width 0.8s, height 0.8s;
 }
 
 .btnSobre{
@@ -108,13 +115,19 @@ h2{
 .HabPrograms{
     
     position: absolute;
-    left:  25%;
+    top: -30px;
+    left:  23%;
 
 }
 .HabIdioma{
     position: absolute ;
-    top: 10px;
-    right:  25%;
+    top: -15px;
+    right:  30%;
+}
+.HabOutros{
+    position: absolute ;
+    top: 120px;
+    right:  28%;
 }
 .tituloPrograms{
     font-size: 35px;
@@ -124,6 +137,10 @@ h2{
 .tituloIdioma{
     position: relative;
     top: -10px;
+    font-size: 35px;
+    color: #FFAF29;
+}
+.tituloOutros{
     font-size: 35px;
     color: #FFAF29;
 }
@@ -156,16 +173,21 @@ h2{
     color: #FFAF29;
 }
 .itemCard p{
-    padding: 0px 10px 10px 10px ;
+    padding: 0px 10px 0px 10px ;
     font-size: 20px;
     color: white;
 }
-
+.itemCard b{
+    position: relative;
+    top: -10px;
+    color: white;
+    font-size: 20px;
+}
 /* buttons*/
 .btnCarousel{
     text-align: center;
     position: relative;
-    top: -542px;
+    top: -562px;
     margin-left:840px ;
 }
 .btnRight{
@@ -249,5 +271,33 @@ margin: 0px 15% 10px 15% ;
     background-color: #FFAF29;
 }
 .segundaParteCertificados{
-    display: none;
+    
 }
+
+.imgCertificado{
+    display: none;
+    position: fixed ;
+    top: 50px;
+    left: 200px;
+    width: 1000px;
+    height: 500px;
+    background-color: #3f456b;
+    border-radius: 3px;
+
+}
+.imgCertificado img{
+    border-radius: 5px 5px 0px 0px;
+    display: none;
+
+}
+.imgCertificado button{
+    border-radius: 0px 0px 3px 3px;
+    display: none;
+    font-size: 20px;
+    background-color: #FFAF29;
+    color: white;
+    border: none;
+    width: 1000px;
+    height: 30px;
+}
+

@@ -64,3 +64,60 @@ inicializarCertificados = () => {
 }
 
 inicializarCertificados();
+
+var certificadoData = document.getElementById("certificadoData")
+var certificadoHtml = document.getElementById('certificadoHtml')
+var certificadoExcel = document.getElementById('certificadoExcel')
+var certificadoWord = document.getElementById('certificadoWord')
+var certificadoSixSigma = document.getElementById('certificadoSixSigma')
+var btnCertVoltar = document.getElementById('btnCertVoltar')
+
+btnCertVoltar.onclick = function () {
+    var imgCertificado = document.getElementById('imgCertificado')
+    var certImg = document.getElementById('certImg')
+    imgCertificado.style.display = 'none'
+    certImg.style.display = 'none'
+    btnCertVoltar.style.display = 'none'
+}
+
+certificadoData.onclick = function(){
+    var imgCertificado = document.getElementById('imgCertificado')
+    var certImg = document.getElementById('certImg')
+    imgCertificado.style.display = 'inline'
+    btnCertVoltar.style.display = 'inline'
+    certImg.style.display = 'inline'
+    certImg.setAttribute('src','img/certificados/Certificado senac Data Cabling System.jpg')
+    
+}
+certificadoHtml.onclick = function(){
+    var imgCertificado = document.getElementById('imgCertificado')
+    var certImg = document.getElementById('certImg')
+    imgCertificado.style.display = 'inline'
+    btnCertVoltar.style.display = 'inline'
+    certImg.style.display = 'inline'
+    certImg.setAttribute('src','img/certificados/certificado Html A+ançado.jpg')
+}
+certificadoExcel.onclick = function(){
+    var imgCertificado = document.getElementById('imgCertificado')
+    var certImg = document.getElementById('certImg')
+    imgCertificado.style.display = 'inline'
+    btnCertVoltar.style.display = 'inline'
+    certImg.style.display = 'inline'
+    certImg.setAttribute('src','img/certificados/certificado Excel b+ísico.png')
+}
+certificadoWord.onclick = function(){
+    var imgCertificado = document.getElementById('imgCertificado')
+    var certImg = document.getElementById('certImg')
+    imgCertificado.style.display = 'inline'
+    btnCertVoltar.style.display = 'inline'
+    certImg.style.display = 'inline'
+    certImg.setAttribute('src','img/certificados/certificado do word b+ísico.png')
+}
+certificadoSixSigma.onclick = function(){
+    var imgCertificado = document.getElementById('imgCertificado')
+    var certImg = document.getElementById('certImg')
+    imgCertificado.style.display = 'inline'
+    btnCertVoltar.style.display = 'inline'
+    certImg.style.display = 'inline'
+    certImg.setAttribute('src','img/certificados/thumbnail.png')
+}
