@@ -4,6 +4,7 @@
 
 + HTML 
 + CSS
++ JAVASCRIPT
 
 <img src="/img/Portfolio.jpg">
 
