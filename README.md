@@ -1,2 +1,11 @@
-Portfólio responsivo feito em HTML,CSS e JAVASCRIPT. 
-OBS: ainda em desenvolvimento.
+### Portfólio responsivo.
+#### Linguagens utilizadas: 
+
+
++ HTML 
++ CSS
+
+#### OBS: ainda em desenvolvimento.
+
+<img src="/img/Portfolio.jpg">
+
