@@ -1,0 +1,44 @@
+
+a{text-decoration: none;}
+ul{list-style: none;}
+img{max-width: 100%;}
+
+.btnIcon i{
+    background-color: #252A44;
+    color: white;
+    text-align: center;
+    border-radius: 100px;
+    padding: 15px;
+    font-size: 40px;
+}
+.menu{
+    position: fixed;
+    top: 0px;
+    left: -300px;
+    width: 300px;
+    height:100% ;
+    background-color: #272B41;
+    text-align: center;
+    transition: left 0.8s;
+}
+.menu img{
+    border-radius: 150px;
+    padding: 15px;
+    background-color: #2F3553;
+    margin-top: 15px;
+    width: 180px;
+    height: 180px;
+}
+.btnMenu{
+    position: relative;
+    right: 20px;
+}
+.btnMenu li{
+    cursor: pointer;
+    font-size: 25px;
+    margin-top: 10px;
+    color: white;
+}
+.btnMenu hr{
+    margin-top: 5px;
+}
