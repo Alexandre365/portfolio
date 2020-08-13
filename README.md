@@ -1,4 +1,7 @@
 ### Portfólio responsivo.
+
+<img src="/img/Portfolio.jpg">
+
 #### Linguagens utilizadas: 
 
 
@@ -6,6 +9,3 @@
 + CSS
 
 #### OBS: ainda em desenvolvimento.
-
-<img src="/img/Portfolio.jpg">
-
