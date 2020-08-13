@@ -1,0 +1,21 @@
+.Habilidades{
+    display: none;
+}
+.HCont{
+    position: relative;
+    top: 80px;
+}
+.HCont h2{
+    margin-bottom:25px ;
+    color: #1E1E26;
+    font-size: 28px;
+}
+.HCont p {
+    margin-top: 5px;
+    color: #747478;
+    font-size: 23px;
+}
+.HCont b {
+    font-size: 25px;
+    color: #000000;
+}

@@ -1,0 +1,24 @@
+.container{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box{
+    width: 300px;
+    height: 300px;
+}
+.SMCont{
+    position: relative;
+    top: 80px;
+}
+.SMCont h2{
+    margin-bottom:10px ;
+    color: #1E1E26;
+    font-size: 28px;
+}
+.SMCont p {
+    margin-top: 5px;
+    color: #747478;
+    font-size: 23px;
+}
