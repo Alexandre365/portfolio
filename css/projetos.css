@@ -1,0 +1,54 @@
+.Projetos{
+    font-family: 'Source Sans Pro', sans-serif;
+    display: none;
+}
+.btnCarrouseProjetos{
+    display: none;
+}
+.PCont{
+    position: relative;
+    top: 80px;
+}
+.PCont h2{
+    font-family: 'Cabin', sans-serif;
+    color: #1E1E26;
+    font-size: 300%;
+}
+.PCont p {
+    color: #747478;
+    font-size: 200%;
+}
+.PCont b {
+    color: #f09c00;
+    font-size: 200%;
+}
+.itemCard{
+    margin-top: 10px;
+}
+
+.projetos2{
+    width: 100% ;
+    height: 100%;
+}
+.projetos2 img{
+    border-radius: 8px;
+}
+.btnCarrouseProjetos{
+    background-color: #373f64;
+    text-align: center;
+    position: fixed;
+    top: 93%;
+    width: 100%;
+    height:  67px;
+}
+.btnLeft{
+    margin-right: 5px;
+    color: white;
+    font-size: 30px;
+}
+.btnRight{
+    margin-left: 5px;
+    color: white;
+    font-size: 30px;
+
+}

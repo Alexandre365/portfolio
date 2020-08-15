@@ -1,4 +1,5 @@
 .Habilidades{
+    font-family: 'Source Sans Pro', sans-serif;
     display: none;
 }
 .HCont{
@@ -6,6 +7,7 @@
     top: 80px;
 }
 .HCont h2{
+    font-family: 'Cabin', sans-serif;
     margin-bottom:25px ;
     color: #1E1E26;
     font-size: 28px;

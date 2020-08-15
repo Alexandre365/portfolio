@@ -1,4 +1,6 @@
+
 .Contato{
+    font-family: 'Source Sans Pro', sans-serif;
     display: none;
 }
 .CCont{
@@ -6,6 +8,7 @@
     top: 80px;
 }
 .CCont h2{
+    font-family: 'Cabin', sans-serif;
     margin-bottom:10px ;
     color: #1E1E26;
     font-size: 28px;

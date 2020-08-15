@@ -1,21 +1,22 @@
 .container{
-
     display: flex;
     justify-content: center;
     align-items: center;
 }
 .box{
-    width: 300px;
-    height: 300px;
+    width: 100%;
+    height: 100%;
 }
 .SMCont{
+    font-family: 'Source Sans Pro', sans-serif;
     position: relative;
     top: 80px;
 }
 .SMCont h2{
+    font-family: 'Cabin', sans-serif;
     margin-bottom:10px ;
-    color: #1E1E26;
-    font-size: 28px;
+    color: #000000;
+    font-size: 30px;
 }
 .SMCont p {
     margin-top: 5px;
