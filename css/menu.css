@@ -64,3 +64,32 @@ img{max-width: 100%;}
     text-align: center;
     color: white;
 }
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box{
+    width: 100%;
+    height: 100%;
+}
+
+@media screen and (min-width:1000px) {
+    .btnIcon i{
+       display: none; 
+    }
+    .box{
+        position: relative;
+        left: 15%;
+        width: 900px;
+        height: 100%;
+    }
+    .menu{
+        left: 0px;
+    }
+    .Titulo{
+        position: relative;
+        top: 22px;
+        left: 150px;
+    }
+}

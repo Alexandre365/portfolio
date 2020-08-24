@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="/css/contato.css">
     <link rel="stylesheet" href="/css/habilidades.css">
     <link rel="stylesheet" href="/css/projetos.css">
+    <link rel="stylesheet" href="/css/certificados.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
@@ -18,12 +19,25 @@
     <link href="https://fonts.googleapis.com/css2?family=Cabin&family=Source+Sans+Pro:wght@300&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/a076d05399.js"></script>
 </head>
-<body>
+<body id="body">
 
     <div class="SobreMim" id="SobreMim">
         <div class="container">
             <div class="box">
                 <div class="SMCont">
+                    <div id="dados" class="dados">
+                    </div>
+                    <h2 class="H2FormaçãoAcademica">Formação acadêmica: 
+                        <div id="FormaçãoAcadêmica" class="FormaçãoAcadêmica">
+                        </div>
+                    </h2>
+                    <h2 class="H2FormaçãoComplementa">Formação complementar: 
+                        <div id="formaçãoComplementar">
+                        </div>
+                    </h2>
+                    <div class="H2Experiencia">
+                        <h2>Experiência Profissional:<p> Bicos de atendente em Hiroxi Doces nos finais de semana, e pintar parede e portas.</p></h2>
+                    </div>
                     <h2>Um pouco sobre mim: <p>Estudo programação a 1 ano e meio, formado em técnico em desenvolvimento de sistema pela Etec(Professor Aprígio Gonzaga), Também sou formado em Alemão básico no CEL(Centro de estudo de línguas) onde estudei por 3 anos.</p></h2>
                     <h2>Objetivo: <p>Estou à procura de melhora minha habilidades que ainda estão em desenvolvimento, Adquirir novas habilidade, novos conhecimentos, ainda tenho um bom caminha pela frente, minha jornada como programador só esta no início, e no futuro proximo poderei fala que sou um verdadeiro programador, um excelente programador.</p></h2>
                 </div>
@@ -100,7 +114,7 @@
                             <div class="carousel-inner">
                                 <div class="item active" id="itemImg">
                                     <div id="LinkProjetoWeb" >
-                                        <img src="/img/imgSmart/site_nerd.jpg"  style="width:100%; height: 330px;">
+                                        <img src="" id="Slide1"  style="width:100%; height: 350px;">
                                         <div class="itemCard">
                                             <h2>
                                                 Projeto web:
@@ -116,7 +130,7 @@
                                 
                                     <div class="item">
                                         <div id="LinkProjetoLolium">
-                                            <img src="/img/imgSmart/Ionic_musica.jpg" style="width:100%; height: 330px;">
+                                            <img src="" id="slide2" style="width:100%; height: 350px;">
                                             <div class="itemCard">
                                                 <h2>
                                                     Projeto mobile:
@@ -132,7 +146,7 @@
                             
                                 <div class="item">
                                     <div id="LinkProjetoNerdRespon">
-                                        <img src="/img/imgSmart/site_nerd_respon.jpg" style="width:100%; height: 330px;" >
+                                        <img src="" id="slide3" style="width:100%; height: 350px;" >
                                         <div class="itemCard">
                                             <h2>
                                                 Projeto web:
@@ -157,7 +171,7 @@
     </div>
     <div class="btnCarrouseProjetos" id="btnCarrouseProjetos">
         <div class="container">
-            <div class="box">
+            <div class="box" id="box">
                 <div class="btnCPCont">
                     <div class="btnCarousel">
                         <a class="btnLeft" id="btnLeft" href="#myCarousel" data-slide="prev">
@@ -170,6 +184,26 @@
                             <span class="sr-only">Next</span>
                         </a>    
                     </div>   
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="Certificados" id="Certificados">
+        <div class="container">
+            <div class="box">
+                <div class="CertCont">
+                    <div class="grid-container" id="gridcontainer">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="OsCertificados" id="OsCertificados">
+        <div class="container">
+            <div class="box">
+                <div class="OCCont" id="OCCont">
+                    <img src=""  id="certImg">
+                    <h2 id="btnCertVoltar">Voltar</h2>
                 </div>
             </div>
         </div>
@@ -189,11 +223,14 @@
                 <li id="btnContato">Contato</li>
                 <li id="btnHabilidades">Habilidades</li>
                 <li id="btnProjetos">Projetos</li>
-                <li>Certificados</li>
-                <li id="btnVoltar">Voltar</li>
+                <li id="btnCertificados">Certificados</li>
+                <div id="btnVoltar2"><li id="btnVoltar">Voltar</li></div>
             </ul>
         </div>
     </nav>
     <script src="/js/menu.js"></script>
+    <script src="/js/certificados.js"></script>
+    <script src="/js/sobreMim.js"></script>
+    <script src="/js/projetos.js"></script>
 </body>
 </html>

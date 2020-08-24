@@ -1,12 +1,4 @@
-.container{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.box{
-    width: 100%;
-    height: 100%;
-}
+
 .SMCont{
     font-family: 'Source Sans Pro', sans-serif;
     position: relative;
@@ -14,12 +6,63 @@
 }
 .SMCont h2{
     font-family: 'Cabin', sans-serif;
-    margin-bottom:10px ;
+    margin-bottom:20px ;
     color: #000000;
     font-size: 30px;
 }
 .SMCont p {
-    margin-top: 5px;
     color: #747478;
     font-size: 23px;
+}
+.SMCont b{
+    font-family: 'Cabin', sans-serif;
+    color: #000000;
+    font-size: 23px;
+}
+
+@media screen and (min-width:1000px) {
+    .dados{
+        margin-bottom: 70px;
+    }
+    .Nome{
+        position: relative;
+        top: 50px;
+    }
+    .Nome p{
+        font-size: 50px;
+        color: black;
+        font-family: 'Cabin', sans-serif;
+    }
+    .Nome b{
+        font-size: 50px;
+        font-family: 'Cabin', sans-serif;
+        color: #2DAEA0;
+    }
+    .Idade p{
+        position: relative;
+        top: 25px;
+        font-size: 30px;
+        color: black;
+    }
+    .Rua p{
+        position: absolute;
+        top: 110px;
+        left: 120px;
+        font-family: 'Cabin', sans-serif;
+        font-size: 30px;
+        color: #2DAEA0;
+    }
+    .FormaçãoAcadêmica{
+        margin-bottom: 250px;
+    }
+    .H2FormaçãoComplementa{
+        position: absolute;
+        top: 200px;
+        left: 500px;
+    }
+    .H2Experiencia{
+        width: 400px;
+        position: absolute;
+        top: 450px;
+    }
 }
